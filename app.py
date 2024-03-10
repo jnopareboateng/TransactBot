@@ -49,11 +49,12 @@ Advice: Provide strategies to manage expenses or tips to reduce the expenses her
 
 # Initializing the Database Chain
 from db import *
-from langchain_experimental.sql import SQLDatabaseChain
+# from langchain_experimental.sql import SQLDatabaseChain
+from langchain_community.utilities import SQLDatabase
 from model import llm
 
 # Create the database chain
-db_chain = SQLDatabaseChain.from_llm(llm, db, verbose=True)
+db_chain = SQLDatabase.from_llm(llm, db, verbose=True)
 
 # Interacting with the Database
 from datetime import datetime
