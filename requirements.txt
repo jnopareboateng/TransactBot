@@ -37,7 +37,7 @@ huggingface-hub==0.19.4
 humanfriendly==10.0
 ibm-cos-sdk==2.13.3
 ibm-cos-sdk-core==2.13.3
-ibm-cos-sdk-s3transfer==2.13.3
+ibm-cos-sdk-s3transfer==2.13.4
 ibm-watson-machine-learning==1.0.333
 idna==3.6
 importlib-metadata==6.8.0
