@@ -39,7 +39,7 @@ ibm-cos-sdk==2.13.3
 ibm-cos-sdk-core==2.13.3
 ibm-cos-sdk-s3transfer==2.13.4
 ibm-watson-machine-learning==1.0.333
-idna==3.6
+idna==3.7
 importlib-metadata==6.8.0
 importlib-resources==6.1.1
 InstructorEmbedding==1.0.1
